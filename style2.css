@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Courier New';
+    background-size: cover;
+    border:5px solid greenyellow;
+    margin: 20px;
+    padding: 17px;
+    align-content: center;
+}
+h1{
+    color:forestgreen;
+    font-size: xx-large;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium';
+    background: grey;
+    width: 96px;
+    height: 40px;
+    transition: width 2s, height 2s;
+    display: flex;
+    flex-wrap: wrap;
+}
+button:hover{
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+button:active{
+    width: 160px;
+    height: 86px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bye-color{
+    background: rgb(255, 255, 255);
+    border:3px solid forestgreen; 
+}
+.yes-color{
+    background: white;
+    border:3px solid forestgreen;
+}
+.no-color{
+    background:white;
+    border:3px solid forestgreen;
+}
+h2{
+    font-family: Georgia;
+}
+pre{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+}
